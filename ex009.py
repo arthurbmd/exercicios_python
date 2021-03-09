@@ -1,0 +1,18 @@
+#faça um programa que leia um número inteiro qualquer e mostre sua tabuada
+print('\033[33m-=\033[m'*10)
+print('\033[36mSUA PRIMEIRA TABUADA\033[m')
+print('\033[33m-=\033[m'*10)
+
+n = int(input('Digite um número inteiro: '))
+print('\033[32m-\033[m' * 20)
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 1, n * 1))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 2, n * 2))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 3, n * 3))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 4, n * 4))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 5, n * 5))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 6, n * 6))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 7, n * 7))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 8, n * 8))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 9, n * 9))
+print('{} x \033[36m{:2}\033[m = \033[34m{}\033[m'.format(n, 10, n * 10))
+print('\033[32m-\033[m' * 20)
